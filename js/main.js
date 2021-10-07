@@ -76,6 +76,7 @@ elEmoji.innerHTML = '😃';
 var gidx = 0;
 
 function changeLevel(elLevel) {
+    restartGame();
     if (elLevel.id === 'beginner' && !gIsClicked) {
 
 
